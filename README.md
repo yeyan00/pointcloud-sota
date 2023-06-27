@@ -1,6 +1,5 @@
 # awesome-pointcloud-sota
-Collect and summarize point cloud sota methods
-the content is coming soon!
+Collect and summarize point cloud sota methods!
 
 # Available Tasks
 
