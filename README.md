@@ -1,6 +1,5 @@
 # awesome-pointcloud-sota
-Collect and summarize point cloud sota methods
-the content is coming soon!
+Collect and summarize point cloud sota methods.
 
 # Available Tasks
 
@@ -60,6 +59,7 @@ the content is coming soon!
 
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
+| Swin3D | [A Pretrained Transformer Backbone for 3D Indoor Scene Understanding](https://arxiv.org/pdf/2304.06906v2.pdf) | [github](https://github.com/Yukichiii/Swin3D_Task)| 2023 |
 | SphereFormer | [Spherical Transformer for LiDAR-based 3D Recognition](https://arxiv.org/pdf/2012.09688.pdf) |  [github](https://github.com/dvlab-research/sphereformer)| 2023 |
 | RangeFormer | [Rethinking Range View Representation for LiDAR Segmentation](https://arxiv.org/abs/2303.05367) |  [--]()| 2023 |
 | Window-Normalization | [Window Normalization: Enhancing Point Cloud Understanding by Unifying Inconsistent Point Densities](https://arxiv.org/abs/2212.02287) |  [github](https://github.com/DBDXSS/Window-Normalization)| 2022 |
@@ -94,7 +94,7 @@ the content is coming soon!
 | ISBNet | [a 3D Point Cloud Instance Segmentation Network with Instance-aware Sampling and Box-aware Dynamic Convolution](https://arxiv.org/abs/2303.00246) |  [github](https://github.com/VinAIResearch/ISBNet)| 2023 |
 | Mask3D | [Mask Transformer for 3D Instance Segmentation](https://arxiv.org/abs/2210.03105) |  [github](https://github.com/jonasschult/mask3d)| 2022 |
 
-**5. registration**
+## **5. registration**
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
 | IMFNet | [Interpretable Multimodal Fusion for Point Cloud Registration](https://arxiv.org/abs/2111.09624) |  [github](https://github.com/XiaoshuiHuang/IMFNet)| 2022 |
@@ -103,13 +103,16 @@ the content is coming soon!
 | D3Feat | [Joint Learning of Dense Detection and Description of 3D Local Features](https://arxiv.org/abs/2003.03164) |  [github](https://github.com/XuyangBai/D3Feat)| 2020 |
 
 
-**6. reconstruction**
+## **6. reconstruction**
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
 | PoinTr | [PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers](https://arxiv.org/abs/2108.08839) |  [github](https://github.com/yuxumin/PoinTr)| 2023 |
 | MaskSurf | [Masked Surfel Prediction for Self-Supervised Point Cloud Learning,](https://arxiv.org/pdf/2207.03111.pdf) |  [github](https://github.com/ybzh/masksurf)| 2022 
 
  # open libs
+
+ * [[**Pointcept**]](https://github.com/Pointcept/Pointcept)  
+ Pointcept is a powerful and flexible codebase for point cloud perception research. (**recommend**)
 
 * [[**mmdetection3d**]](https://github.com/open-mmlab/mmdetection3d)  
   MMDetection3D is an open source object detection toolbox based on PyTorch, towards the next-generation platform for general 3D detection. It is a part of the OpenMMLab project developed by MMLab.
