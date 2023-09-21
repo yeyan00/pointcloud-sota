@@ -11,7 +11,7 @@ Collect and summarize point cloud sota methods
 |       <h3> Panoptic Segmentation </h3>        |       <img src="imgs/panoptic.png"  height="64">        |
 |            <h3> Registration </h3>            |      <img src="imgs/registration.png" height="64">      |
 |            <h3> Reconstruction </h3>            |      <img src="imgs/reconstruction.png" height="64">      |
-
+|            <h3> Multi-modal  </h3>            |       pointcloud with language model     |
 
 
 # dataset
@@ -34,7 +34,12 @@ Collect and summarize point cloud sota methods
 * [[nuScenes]](https://www.nuscenes.org/) The nuScenes dataset is a large-scale autonomous driving dataset.[**`detection`** **`segmentation`**] 
 * [[3D Match]](https://3dmatch.cs.princeton.edu/) Keypoint Matching Benchmark, Geometric Registration Benchmark, RGB-D Reconstruction Datasets. [**`registration`**  **`reconstruction`**   ]
 * [[ETH]](https://projects.asl.ethz.ch/datasets/doku.php?id=laserregistration:laserregistration) Challenging data sets for point cloud registration algorithms [**`registration`**]
-
+* [[objaverse](https://objaverse.allenai.org/)] Objaverse-XL is an open dataset of over 10 million 3D objects! With it, we train Zero123-XL, a foundation model for 3D, observing incredible 3D generalization abilities.[**`Multi-modal`**]
+* [[ScanRfer](https://daveredrum.github.io/ScanRefer/)] 3D Object Localization in RGB-D Scans using Natural Language.[**`Multi-modal`**]
+* [[DriveLM](https://github.com/OpenDriveLab/DriveLM)] DriveLM is an autonomous driving (AD) dataset incorporating linguistic information. Through DriveLM, we want to connect large language models and autonomous driving systems, and eventually introduce the reasoning ability of Large Language Models in autonomous driving (AD) to make decisions and ensure explainable planning.
+[**`Multi-modal`**]
+* [[ScanQA](https://github.com/ATR-DBI/ScanQA)] 3D Question Answering for Spatial Scene Understanding. A new 3D spatial understanding task for 3D question answering (3D-QA). In the 3D-QA task, models receive visual information from the entire 3D scene of a rich RGB-D indoor scan and answer given textual questions about the 3D scene
+[**`Multi-modal`**]
 
 # **task sota**
 ##  **1. Classification**
@@ -107,7 +112,14 @@ Collect and summarize point cloud sota methods
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
 | PoinTr | [PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers](https://arxiv.org/abs/2108.08839) |  [github](https://github.com/yuxumin/PoinTr)| 2023 |
-| MaskSurf | [Masked Surfel Prediction for Self-Supervised Point Cloud Learning,](https://arxiv.org/pdf/2207.03111.pdf) |  [github](https://github.com/ybzh/masksurf)| 2022 
+| MaskSurf | [Masked Surfel Prediction for Self-Supervised Point Cloud Learning](https://arxiv.org/pdf/2207.03111.pdf) |  [github](https://github.com/ybzh/masksurf)| 2022 
+
+## **7. multi-modal**
+| <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
+| :----:   | :----:|  :----:  |:----:|
+| 3D-LLM | [3D-LLM: Injecting the 3D World into Large Language Models](https://arxiv.org/abs/2307.12981) |  [github](https://github.com/UMass-Foundation-Model/3D-LLM)| 2023 |
+| PointLLM | [PointLLM: Empowering Large Language Models to Understand Point Clouds](https://arxiv.org/abs/2308.16911) |  [github](https://github.com/OpenRobotLab/PointLLM)| 2023 
+
 
  # open libs
 
