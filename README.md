@@ -12,6 +12,7 @@ Collect and summarize point cloud sota methods
 |            <h3> Registration </h3>            |      <img src="imgs/registration.png" height="64">      |
 |            <h3> Reconstruction </h3>            |      <img src="imgs/reconstruction.png" height="64">      |
 |            <h3> Multi-modal  </h3>            |       pointcloud with language model     |
+|            <h3> Change-Detection  </h3>            |       pointcloud change detection     |
 
 
 # dataset
@@ -40,6 +41,11 @@ Collect and summarize point cloud sota methods
 [**`Multi-modal`**]
 * [[ScanQA](https://github.com/ATR-DBI/ScanQA)] 3D Question Answering for Spatial Scene Understanding. A new 3D spatial understanding task for 3D question answering (3D-QA). In the 3D-QA task, models receive visual information from the entire 3D scene of a rich RGB-D indoor scan and answer given textual questions about the 3D scene
 [**`Multi-modal`**]
+* [[urb3dcd-v2](https://ieee-dataport.org/open-access/urb3dcd-urban-point-clouds-simulated-dataset-3d-change-detection)] The dataset is based on LoD2 models of the first and second districts of Lyon, France. To conduct fair qualitative and quantitative evaluation of point clouds change detection techniques. This first version of the dataset is composed of point clouds at a challenging low resolution of around 0.5 points/meter²
+[**`Change-Detection`**]
+
+
+
 
 # **task sota**
 ##  **1. Classification**
@@ -120,6 +126,13 @@ Collect and summarize point cloud sota methods
 | :----:   | :----:|  :----:  |:----:|
 | 3D-LLM | [3D-LLM: Injecting the 3D World into Large Language Models](https://arxiv.org/abs/2307.12981) |  [github](https://github.com/UMass-Foundation-Model/3D-LLM)| 2023 |
 | PointLLM | [PointLLM: Empowering Large Language Models to Understand Point Clouds](https://arxiv.org/abs/2308.16911) |  [github](https://github.com/OpenRobotLab/PointLLM)| 2023 
+
+## **8. change-detection**
+| <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
+| :----:   | :----:|  :----:  |:----:|
+| DC3DCD | [unsupervised learning for multiclass 3D point cloud change detection](https://arxiv.org/pdf/2305.05421.pdf) |  [github](https://github.com/idegelis/torch-points3d-dc3dcd)| 2023 |
+| Siamese KPConv | [3D multiple change detection from raw point clouds using deep learning](https://www.sciencedirect.com/science/article/abs/pii/S0924271623000394) |  [github](https://github.com/IdeGelis/torch-points3d-SiameseKPConv)| 2023 |
+|  A Review| [Three Dimensional Change Detection Using Point Clouds: A Review](https://www.mdpi.com/2673-7418/2/4/25) |  [github](-)| 2022 |
 
 
  # open libs
