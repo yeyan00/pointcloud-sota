@@ -71,6 +71,7 @@ Collect and summarize point cloud sota methods.
 
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
+| PonderV2 | [PonderV2: Pave the Way for 3D Foundation Model with A Universal Pre-training Paradigm](https://arxiv.org/abs/2310.08586) | [github](https://github.com/OpenGVLab/PonderV2)| 2023 |
 | Swin3D | [A Pretrained Transformer Backbone for 3D Indoor Scene Understanding](https://arxiv.org/pdf/2304.06906v2.pdf) | [github](https://github.com/Yukichiii/Swin3D_Task)| 2023 |
 | Multi-dataset Point Prompt Training | [Towards Large-scale 3D Representation Learning with Multi-dataset Point Prompt Training](https://arxiv.org/abs/2308.09718) | [github](hhttps://github.com/Pointcept/Pointcept#point-prompt-training-ppt)| 2023 |
 | SphereFormer | [Spherical Transformer for LiDAR-based 3D Recognition](https://arxiv.org/pdf/2012.09688.pdf) |  [github](https://github.com/dvlab-research/sphereformer)| 2023 |
