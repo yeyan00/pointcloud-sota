@@ -8,10 +8,10 @@ for pointcloud segment, i use pointcept
 refer to pointcept doc:  
 https://github.com/Pointcept/Pointcept?tab=readme-ov-file#installation
 
-# 2.define your dataset
+# 2.add dataset
 **refer to dataset.py**
 
-# 3.define your model [option]
+# 3.add  model [option]
 **refer to ts_unet.py**
 
 i use torchspaser , pointcept default is spconv(**now recommend**) and mink. 
@@ -21,7 +21,7 @@ spconv V2.3.6 speed faster than torchsparse V2.0, but slower than torchsparse V2
 * [torchsparse](https://github.com/mit-han-lab/torchsparse)  
 
 
-# 4.define config file
+# 4.add config file
 **refer to ts_unet_cfg.py**
 
 ```
