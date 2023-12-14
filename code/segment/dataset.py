@@ -11,6 +11,16 @@ from pointcept.datasets.builder import DATASETS
 from pointcept.datasets.defaults import DefaultDataset
 import json
 
+'''
+dataset like this:
+
+train.txt
+data/1.npz
+data/2.npz
+
+in npz,data key: xyz,c
+'''
+
 @DATASETS.register_module()
 class MyDataset(DefaultDataset):
     def __init__(

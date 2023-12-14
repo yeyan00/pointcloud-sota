@@ -78,14 +78,12 @@ def get_model(cfg):
     return model
 
 def get_test_data(data_root):
-    meta_json = '%s/%s.json'%(data_root,'val')
-    data_list=[]
+    meta_json = '%s/%s.txt'%(data_root,'val')
+    
+    with open(meta_json,'r') as f:
+        data_list=  f.readlines()
         
-    with open(meta_json) as json_file:
-        data = json.load(json_file)
-        for k,v in data.items():
-            for i in v:
-                data_list.append(i)
+    data_list = [e.strip() for e in data_list]
 
     return data_list
 

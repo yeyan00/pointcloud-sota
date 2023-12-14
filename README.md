@@ -63,6 +63,8 @@ Collect and summarize point cloud sota methods.
 | PointNeXt| [PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies](https://arxiv.org/abs/2206.04670) | [github](https://github.com/guochengqian/pointnext)|2022|
 | PVT| [Point-Voxel Transformer for Point Cloud Learning](https://arxiv.org/abs/2108.06076) |  [github](https://github.com/HaochengWan/PVT)|2021|
 | Point-MAE| [Masked Autoencoders for Point Cloud Self-supervised Learning](https://arxiv.org/abs/2203.06604) |  [github](https://github.com/Pang-Yatian/Point-MAE)|2022|
+| Point-M2AE| [Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training](https://arxiv.org/pdf/2205.14401.pdf) |  [github](https://github.com/ZrrSkywalker/Point-M2AE)|2022|
+| Point-BERT| [Pre-Training 3D Point Cloud Transformers with Masked Point Modeling](https://arxiv.org/abs/2111.14819) |  [github](https://github.com/lulutang0608/Point-BERT)|2021|
 | PCT | [Point Cloud Transformer](https://arxiv.org/pdf/2012.09688.pdf) |  [github](https://github.com/MenghaoGuo/PCT)| 2020 |
 
 
@@ -187,4 +189,6 @@ It is also the official code release of [PointRCNN], [Part-A2-Net], [PV-RCNN], [
 
     Learning3D is an open-source library that supports the development of deep learning algorithms that deal with 3D data. The Learning3D exposes a set of state of art deep neural networks in python. A modular code has been provided for further development. We welcome contributions from the open-source community.
 
+* [[**CloudCompare**]](https://www.danielgm.net/cc/)
 
+  CloudCompare is a 3D point cloud (and triangular mesh) processing software. It was originally designed to perform comparison between two 3D points clouds (such as the ones obtained with a laser scanner) or between a point cloud and a triangular mesh. It relies on an octree structure that is highly optimized for this particular use-case. It was also meant to deal with huge point clouds (typically more than 10 million points, and up to 120 million with 2 GB of memory).

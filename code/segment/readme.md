@@ -14,9 +14,11 @@ https://github.com/Pointcept/Pointcept?tab=readme-ov-file#installation
 # 3.add  model [option]
 **refer to ts_unet.py**
 
-i use torchspaser , pointcept default is spconv(**now recommend**) and mink. 
+i use torchsparse, pointcept default is spconv(**now recommend**) and mink. 
 
-spconv V2.3.6 speed faster than torchsparse V2.0, but slower than torchsparse V2.1,but torchsparse V2.1 sometimes make mistakes in traininng
+spconv V2.3.6 speed faster than torchsparse V2.0, but slower than torchsparse V2.1
+
+install torchsparse from pypi server,following torchsparse docs
 
 * [torchsparse](https://github.com/mit-han-lab/torchsparse)  
 

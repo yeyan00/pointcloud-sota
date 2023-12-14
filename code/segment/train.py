@@ -31,10 +31,10 @@ def main():
     work_dir = 'workspace' 
     
     # set gpu VISIBLE DEVICES
-    os.environ["CUDA_VISIBLE_DEVICES"] = "2,3,4,5"  
+    os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"  
     os.environ['CUDA_LAUNCH_BLOCKING'] = '1' # print error info
     
-    args.num_gpus = 4
+    args.num_gpus = 1 # gpu number
     
     # torchsparse unet
     args.config_file = 'ts_unet_cfg.py' 
