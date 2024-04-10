@@ -97,7 +97,9 @@ Collect and summarize point cloud sota methods.
 
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
+|GraphBEV | [Towards Robust BEV Feature Alignment for Multi-Modal 3D Object Detection](https://arxiv.org/pdf/2403.11848.pdf) | [--](-) | 2024
 | DSVT | [Dynamic Sparse Voxel Transformer with Rotated Sets](https://arxiv.org/abs/2301.06051) |  [github](https://github.com/haiyang-w/dsvt)| 2023 |
+|BEVFusion | [an efficient and generic multi-task multi-sensor fusion framework](https://arxiv.org/abs/2205.13542) | [github](https://github.com/mit-han-lab/bevfusion) |2023
 | Pillar R-CNN | [Pillar R-CNN for Point Cloud 3D Object Detection](https://arxiv.org/pdf/2302.13301.pdf) |  [github](https://github.com/VISION-SJTU/PillarNet-LTS)| 2023 |
 | TransFusion  | [Robust LiDAR-Camera Fusion for 3D Object Detection with Transformers](https://arxiv.org/abs/2203.11496) |  [github](https://github.com/xuyangbai/transfusion)| 2022 |
 | CenterFormer  | [CenterFormer: Center-based Transformer for 3D Object Detection](https://arxiv.org/abs/2209.05588) |  [github](https://github.com/tusimple/centerformer)| 2022 |
