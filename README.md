@@ -134,6 +134,12 @@ Collect and summarize point cloud sota methods.
 | :----:   | :----:|  :----:  |:----:|
 | 3D-LLM | [3D-LLM: Injecting the 3D World into Large Language Models](https://arxiv.org/abs/2307.12981) |  [github](https://github.com/UMass-Foundation-Model/3D-LLM)| 2023 |
 | PointLLM | [PointLLM: Empowering Large Language Models to Understand Point Clouds](https://arxiv.org/abs/2308.16911) |  [github](https://github.com/OpenRobotLab/PointLLM)| 2023 
+| CLIP-goes-3D | [CLIP goes 3D: Leveraging Prompt Tuning for Language Grounded 3D Recognition](https://arxiv.org/abs/2303.11313) |  [github](https://github.com/deeptibhegde/CLIP-goes-3D)| 2023 
+
+| LL3DA | [LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning](https://arxiv.org/abs/2311.18651) |  [github](https://github.com/Open3DA/LL3DA)| 2023 
+| Chat-3D-v2 | [Chat-3D v2: Bridging 3D Scene and Large Language Models with Object Identifiers](https://arxiv.org/abs/2312.08168) |  [github](https://github.com/Chat-3D/Chat-3D-v2)| 2024 
+
+
 
 ## **8. change-detection**
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
