@@ -172,7 +172,8 @@ Collect and summarize point cloud sota methods.
   * **High efficiency**
 
     
-
+* [[**Robo3D**]](https://github.com/ldkong1205/Robo3D)  
+  Robo3D is an evaluation suite heading toward robust and reliable 3D perception in autonomous driving. With it, we probe the robustness of 3D detectors and segmentors under out-of-distribution (OoD) scenarios against corruptions that occur in the real-world environment.
 * [[**open3d**]](https://github.com/isl-org/Open3D)  
   Open3D is an open-source library that supports rapid development of software that deals with 3D data. The Open3D frontend exposes a set of carefully selected data structures and algorithms in both C++ and Python. The backend is highly optimized and is set up for parallelization. Open3D was developed from a clean slate with a small and carefully considered set of dependencies. It can be set up on different platforms and compiled from source with minimal effort. The code is clean, consistently styled, and maintained via a clear code review mechanism. Open3D has been used in a number of published research projects and is actively deployed in the cloud. 
 
