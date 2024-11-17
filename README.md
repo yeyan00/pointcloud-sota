@@ -117,6 +117,7 @@ Collect and summarize point cloud sota methods.
 ## **5. registration**
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
+| DeformationPyramid | [Non-rigid Point Cloud Registration with Neural Deformation Pyramid](https://arxiv.org/abs/2205.12796) |  [github](https://github.com/rabbityl/deformationpyramid)| 2022 |
 | IMFNet | [Interpretable Multimodal Fusion for Point Cloud Registration](https://arxiv.org/abs/2111.09624) |  [github](https://github.com/XiaoshuiHuang/IMFNet)| 2022 |
 | gedi | [Learning general and distinctive 3D local deep descriptors for point cloud registration](https://arxiv.org/pdf/2105.10382.pdf) |  [github](https://github.com/fabiopoiesi/gedi)| 2022 |
 | GeoTransformer | [Geometric Transformer for Fast and Robust Point Cloud Registration](https://arxiv.org/abs/2202.06688) |  [github](https://github.com/qinzheng93/geotransformer)| 2022 |
@@ -135,7 +136,6 @@ Collect and summarize point cloud sota methods.
 | 3D-LLM | [3D-LLM: Injecting the 3D World into Large Language Models](https://arxiv.org/abs/2307.12981) |  [github](https://github.com/UMass-Foundation-Model/3D-LLM)| 2023 |
 | PointLLM | [PointLLM: Empowering Large Language Models to Understand Point Clouds](https://arxiv.org/abs/2308.16911) |  [github](https://github.com/OpenRobotLab/PointLLM)| 2023 
 | CLIP-goes-3D | [CLIP goes 3D: Leveraging Prompt Tuning for Language Grounded 3D Recognition](https://arxiv.org/abs/2303.11313) |  [github](https://github.com/deeptibhegde/CLIP-goes-3D)| 2023 
-
 | LL3DA | [LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning](https://arxiv.org/abs/2311.18651) |  [github](https://github.com/Open3DA/LL3DA)| 2023 
 | Chat-3D-v2 | [Chat-3D v2: Bridging 3D Scene and Large Language Models with Object Identifiers](https://arxiv.org/abs/2312.08168) |  [github](https://github.com/Chat-3D/Chat-3D-v2)| 2024 
 
