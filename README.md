@@ -73,6 +73,7 @@ Collect and summarize point cloud sota methods.
 
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
+| kpconvx | [KPConvX: Modernizing Kernel Point Convolution with Kernel Attention](https://arxiv.org/pdf/2405.13194) | [github](https://github.com/apple/ml-kpconvx)| 2024 |
 | Swin3D++ | [Swin3D++: Effective Multi-Source Pretraining for 3D Indoor Scene Understanding](https://arxiv.org/abs/2402.14215) | [github](https://github.com/microsoft/Swin3D)| 2024 |
 | *PointTransformerV3* | [Point Transformer V3: Simpler, Faster, Stronger](https://arxiv.org/pdf/2312.10035.pdf) | [github](https://github.com/Pointcept/Pointcep)| 2023 |
 | PonderV2 | [PonderV2: Pave the Way for 3D Foundation Model with A Universal Pre-training Paradigm](https://arxiv.org/abs/2310.08586) | [github](https://github.com/OpenGVLab/PonderV2)| 2023 |
