@@ -117,6 +117,7 @@ Collect and summarize point cloud sota methods.
 ## **5. registration**
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
+| 3D Registration in 30 Years: A Survey | [3D Registration in 30 Years: A Survey](https://arxiv.org/pdf/2412.13735v2) |  [github](https://github.com/amyyyy11/3d-registration-in-30-years-a-survey)| 2024 |
 | DeformationPyramid | [Non-rigid Point Cloud Registration with Neural Deformation Pyramid](https://arxiv.org/abs/2205.12796) |  [github](https://github.com/rabbityl/deformationpyramid)| 2022 |
 | IMFNet | [Interpretable Multimodal Fusion for Point Cloud Registration](https://arxiv.org/abs/2111.09624) |  [github](https://github.com/XiaoshuiHuang/IMFNet)| 2022 |
 | gedi | [Learning general and distinctive 3D local deep descriptors for point cloud registration](https://arxiv.org/pdf/2105.10382.pdf) |  [github](https://github.com/fabiopoiesi/gedi)| 2022 |
@@ -133,6 +134,8 @@ Collect and summarize point cloud sota methods.
 ## **7. multi-modal**
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
+| Awesome-LLM-3| [Awesome-LLM-3] |  [github](https://github.com/ActiveVisionLab/Awesome-LLM-3D)| 2024 |
+| LLaVA-3D| [LLaVA-3D: A Simple yet Effective Pathway to Empowering LMMs with 3D-awareness](https://arxiv.org/pdf/2409.18125) |  [github](https://github.com/ZCMax/LLaVA-3D)| 2023 |
 | 3D-LLM | [3D-LLM: Injecting the 3D World into Large Language Models](https://arxiv.org/abs/2307.12981) |  [github](https://github.com/UMass-Foundation-Model/3D-LLM)| 2023 |
 | PointLLM | [PointLLM: Empowering Large Language Models to Understand Point Clouds](https://arxiv.org/abs/2308.16911) |  [github](https://github.com/OpenRobotLab/PointLLM)| 2023 
 | CLIP-goes-3D | [CLIP goes 3D: Leveraging Prompt Tuning for Language Grounded 3D Recognition](https://arxiv.org/abs/2303.11313) |  [github](https://github.com/deeptibhegde/CLIP-goes-3D)| 2023 
