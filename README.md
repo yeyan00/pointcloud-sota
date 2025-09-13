@@ -135,6 +135,10 @@ Collect and summarize point cloud sota methods.
 ## **7. multi-modal**
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
+|Reason3D|[Reason3D: Searching and Reasoning 3D Segmentation via Large Language Model](https://arxiv.org/abs/2405.17427)|[github](https://github.com/KuanchihHuang/Reason3D)|2025
+|DEEPTHINK3D|[ ENHANCING LARGE LANGUAGE MODELS WITH PROGRAMMATIC REASONING IN COMPLEX 3D SITUATED REASONING TASKS](https://arxiv.org/pdf/2508.15548)|[github]()|2025
+|SPATIALLM|[SPATIALLM: Training Large Language Models for Structured Indoor Modeling](https://arxiv.org/pdf/2506.07491)|[github](https://github.com/manycore-research/SpatialLM)|2025
+|Awesome 3D and 4D World Models|[Awesome 3D and 4D World Models](https://worldbench.github.io/survey.pdf) | [github](https://github.com/worldbench/survey) | 2025
 | Awesome-LLM-3| [Awesome-LLM-3] |  [github](https://github.com/ActiveVisionLab/Awesome-LLM-3D)| 2024 |
 | LLaVA-3D| [LLaVA-3D: A Simple yet Effective Pathway to Empowering LMMs with 3D-awareness](https://arxiv.org/pdf/2409.18125) |  [github](https://github.com/ZCMax/LLaVA-3D)| 2023 |
 | 3D-LLM | [3D-LLM: Injecting the 3D World into Large Language Models](https://arxiv.org/abs/2307.12981) |  [github](https://github.com/UMass-Foundation-Model/3D-LLM)| 2023 |
