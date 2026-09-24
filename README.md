@@ -13,6 +13,7 @@ Collect and summarize point cloud sota methods.
 |            <h3> Reconstruction </h3>            |      <img src="imgs/reconstruction.png" height="64">      |
 |            <h3> Multi-modal  </h3>            |       pointcloud with language model     |
 |            <h3> Change-Detection  </h3>            |       pointcloud change detection     |
+|            <h3> 3D Generation  </h3>            |       image/text to 3D asset generation     |
 
 
 # dataset
@@ -73,6 +74,8 @@ Collect and summarize point cloud sota methods.
 
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
+| Volt | [Volume Transformer: Revisiting Vanilla Transformers for 3D Scene Understanding](https://arxiv.org/abs/2604.19609) | [github](https://github.com/YilmazKadir/Volt) / [project](https://yilmazkadir.github.io/Volt)| 2026 |
+| PointCNN++ | [PointCNN++: Performant Convolution on Native Points](https://arxiv.org/abs/2511.23227) | [github](https://github.com/robbyant-research/pointelligence)| 2025 |
 | kpconvx | [KPConvX: Modernizing Kernel Point Convolution with Kernel Attention](https://arxiv.org/pdf/2405.13194) | [github](https://github.com/apple/ml-kpconvx)| 2024 |
 | Swin3D++ | [Swin3D++: Effective Multi-Source Pretraining for 3D Indoor Scene Understanding](https://arxiv.org/abs/2402.14215) | [github](https://github.com/microsoft/Swin3D)| 2024 |
 | *PointTransformerV3* | [Point Transformer V3: Simpler, Faster, Stronger](https://arxiv.org/pdf/2312.10035.pdf) | [github](https://github.com/Pointcept/Pointcep)| 2023 |
@@ -111,6 +114,7 @@ Collect and summarize point cloud sota methods.
 ## **4. Panoptic Segmentation**
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
+| Volt (Instance Segmentation) | [Volume Transformer: Revisiting Vanilla Transformers for 3D Scene Understanding](https://arxiv.org/abs/2604.19609) | [github](https://github.com/YilmazKadir/Volt) / [project](https://yilmazkadir.github.io/Volt)| 2026 |
 | P3Former | [Position-Guided Point Cloud Panoptic Segmentation Transformer](https://arxiv.org/abs/2303.13509) |  [github](https://github.com/smartbot-pjlab/p3former)| 2023 |
 | ISBNet | [a 3D Point Cloud Instance Segmentation Network with Instance-aware Sampling and Box-aware Dynamic Convolution](https://arxiv.org/abs/2303.00246) |  [github](https://github.com/VinAIResearch/ISBNet)| 2023 |
 | Mask3D | [Mask Transformer for 3D Instance Segmentation](https://arxiv.org/abs/2210.03105) |  [github](https://github.com/jonasschult/mask3d)| 2022 |
@@ -118,6 +122,7 @@ Collect and summarize point cloud sota methods.
 ## **5. registration**
 | <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
 | :----:   | :----:|  :----:  |:----:|
+| PointCNN++ | [PointCNN++: Performant Convolution on Native Points](https://arxiv.org/abs/2511.23227) | [github](https://github.com/robbyant-research/pointelligence)| 2025 |
 | 3D Registration in 30 Years: A Survey | [3D Registration in 30 Years: A Survey](https://arxiv.org/pdf/2412.13735v2) |  [github](https://github.com/amyyyy11/3d-registration-in-30-years-a-survey)| 2024 |
 | DeformationPyramid | [Non-rigid Point Cloud Registration with Neural Deformation Pyramid](https://arxiv.org/abs/2205.12796) |  [github](https://github.com/rabbityl/deformationpyramid)| 2022 |
 | IMFNet | [Interpretable Multimodal Fusion for Point Cloud Registration](https://arxiv.org/abs/2111.09624) |  [github](https://github.com/XiaoshuiHuang/IMFNet)| 2022 |
@@ -157,7 +162,35 @@ Collect and summarize point cloud sota methods.
 |  A Review| [Three Dimensional Change Detection Using Point Clouds: A Review](https://www.mdpi.com/2673-7418/2/4/25) |  [github](-)| 2022 |
 
 
+## **9. 3D Generation**
+| <h3>Model</h3> | <h3>Paper</h3> | <h3>Code</h3> | Year|
+| :----:   | :----:|  :----:  |:----:|
+| Pixal3D | [Pixal3D: Pixel-Aligned 3D Generation from Images](https://arxiv.org/abs/2605.10922) | [github](https://github.com/TencentARC/Pixal3D) | 2026 |
+| TripoSplat | [Generative 3D Gaussians with Learned Density Control](https://arxiv.org/abs/2605.16355) | [github](https://github.com/VAST-AI-Research/TripoSplat) | 2026 |
+| Lyra 2.0 | [Lyra 2.0: Explorable Generative 3D Worlds](https://arxiv.org/abs/2604.13036) | [github](https://github.com/nv-tlabs/lyra) | 2026 |
+| TRELLIS.2 | [Native and Compact Structured Latents for 3D Generation](https://arxiv.org/abs/2512.14692) | [github](https://github.com/microsoft/TRELLIS.2) | 2025 |
+| Hunyuan3D 2.5 | [Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Ultimate Details](https://arxiv.org/abs/2506.16504) | [github](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) | 2025 |
+| Hunyuan3D-Omni | [Hunyuan3D-Omni: A Unified Framework for Controllable Generation of 3D Assets](https://arxiv.org/abs/2509.21245) | [github](https://github.com/Tencent-Hunyuan/Hunyuan3D-Omni) | 2025 |
+| Hunyuan3D 2.0 | [Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation](https://arxiv.org/abs/2501.12202) | [github](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) | 2025 |
+| Lyra | [Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation](https://arxiv.org/abs/2509.19296) | [github](https://github.com/nv-tlabs/lyra) | 2025 |
+| TripoSF | [TripoSF: Unlocking Internal 3D Structure Generation with SparseFlex](https://arxiv.org/abs/2503.21732) | [github](https://github.com/VAST-AI-Research/TripoSF) | 2025 |
+| TripoSG | [TripoSG: High-Fidelity 3D Generation with Rectified Flow MoE](https://arxiv.org/abs/2502.06608) | [github](https://github.com/VAST-AI-Research/TripoSG) | 2025 |
+| Seed3D | [Seed3D 1.0: From Images to High-Fidelity Simulation-Ready 3D Assets](https://github.com/Seed3D/Seed3D) | [github](https://github.com/Seed3D/Seed3D) | 2025 |
+| TRELLIS | [Structured 3D Latents for Scalable and Versatile 3D Generation](https://arxiv.org/abs/2412.01506) | [github](https://github.com/microsoft/TRELLIS) | 2024 |
+| InstantMesh | [InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models](https://arxiv.org/abs/2404.07191) | [github](https://github.com/TencentARC/InstantMesh) | 2024 |
+| TripoSR | [TripoSR: Fast 3D Object Reconstruction from a Single Image](https://arxiv.org/abs/2403.02151) | [github](https://github.com/VAST-AI-Research/TripoSR) | 2024 |
+| LGM | [LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation](https://arxiv.org/abs/2402.05054) | [github](https://github.com/3DTopia/LGM) | 2024 |
+| Hunyuan3D 1.0 | [Hunyuan3D 1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation](https://arxiv.org/abs/2411.02293) | [--]() | 2024 |
+| MVDream | [MVDream: Multi-view Diffusion for 3D Generation](https://arxiv.org/abs/2308.16512) | [github](https://github.com/bytedance/MVDream) | 2023 |
+| Shap-E | [Shap-E: Generating Conditional 3D Implicit Functions](https://arxiv.org/abs/2305.02463) | [github](https://github.com/openai/shap-e) | 2023 |
+| Point-E | [Point-E: A System for Generating 3D Point Clouds from Complex Prompts](https://arxiv.org/abs/2212.08751) | [github](https://github.com/openai/point-e) | 2022 |
+| DreamFusion | [DreamFusion: Text-to-3D using 2D Diffusion](https://arxiv.org/abs/2209.14988) | [--]() | 2022 |
+
+
  # open libs
+
+* [[**Pointelligence**]](https://github.com/robbyant-research/pointelligence)<br />
+  Pointelligence is a high-performance library for 3D point cloud deep learning, providing GPU-accelerated primitives and the official implementation of [PointCNN++](https://arxiv.org/abs/2511.23227) for point cloud registration and semantic segmentation.
 
  * [[**Pointcept**]](https://github.com/Pointcept/Pointcept)  
  Pointcept is a powerful and flexible codebase for point cloud perception research. (**recommend**)
